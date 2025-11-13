@@ -1,6 +1,4 @@
 import React from "react";
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
 import Navbar from "./Navbar.jsx";
 import { Jumbotron } from "./Jumbotron.jsx";
 import { Card } from "./Card.jsx";
@@ -18,18 +16,20 @@ const Home = () => {
 		<>
 			<Navbar />
 			<Jumbotron />
-			<div className="container mt-5">
-				<div className="row">
+
+			<div className="container mt-4 mb-5">
+				<div className="row justify-content-center">
 					{cardsData.map((item, index) => (
-						<div className="col-lg-3 col-md-6 col-12 mb-4" key={index}>
+						<div key={index} className="col-lg-3 col-md-6 col-12 mb-4 d-flex justify-content-center">
 							<Card nombre={item.nombre} info={item.info} />
 						</div>
 					))}
 				</div>
 			</div>
+
 			<Footer />
 		</>
 	);
 };
-export default Home;
 
+export default Home;
