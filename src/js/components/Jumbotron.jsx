@@ -9,7 +9,7 @@ export const Jumbotron = () => {
                     Soluciones eléctricas seguras, sostenibles y eficientes para tu hogar o negocio.
                 </p>
                 <a href="#" className="btn btn-primary btn-lg">
-                    Contáctanos
+                    Contáctanos.
                 </a>
             </div>
         </div>

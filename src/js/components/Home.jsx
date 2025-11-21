@@ -8,7 +8,7 @@ const Home = () => {
 	const cardsData = [
 		{ nombre: "Instalaciones eléctricas", info: "Servicios residenciales y comerciales." },
 		{ nombre: "Energía solar", info: "Soluciones sostenibles y rentables." },
-		{ nombre: "Smart home", info: "Automatiza tu hogar con tecnología inteligente." },
+		{ nombre: "Smart home", info: "Automatiza tu hogar con la ultima tecnología inteligente." },
 		{ nombre: "Mantenimiento", info: "Prevención y corrección de fallas eléctricas." }
 	];
 
